@@ -2,11 +2,22 @@
 __pycache__/
 .ipynb_checkpoints/
 
-data/
-outputs/**/*.npy
-outputs/**/*.npz
-outputs/**/*.pkl
-outputs/**/*.csv
+data/raw/
+data/interim/
+data/processed/
+data/cache/
+
+*.pkl
+*.mat
+*.xlsx
+*.parquet
+*.h5
+*.npy
+*.npz
+
+results/figures/*.png
+results/figures/*.pdf
+results/tables/*.csv
 
 .DS_Store
 .env
