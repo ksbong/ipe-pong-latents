@@ -1,0 +1,5 @@
+Analysis block,Main result,Conservative interpretation
+Condition-level behavior,Condition-dependent uncertainty improves behavior likelihood,Mean response and uncertainty are not fully captured by deterministic target alone
+Trial-level behavior,Raw M6 is overconfident; calibrated M6 improves NLL,Model-derived uncertainty captures condition-wise variability structure but requires response-noise floor
+Window-level DMFC encoding,Paddle residual improves R² beyond y_det and beats shuffle,DMFC activity is aligned with behavioral endpoint structure beyond deterministic target
+Event-aligned DMFC encoding,Residual ΔR² forms significant clusters around occ/final aligned time,Residual-related structure is not only a static averaging artifact
